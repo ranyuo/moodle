@@ -1,6 +1,6 @@
 {
-    "name": "danmarsden/moodle-block_attendance",
-    "type": "moodle-block",
+    "name": "danmarsden/moodle-mod_attendance",
+    "type": "moodle-mod",
     "require": {
         "composer/installers": "~1.0"
     },

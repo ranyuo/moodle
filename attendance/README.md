@@ -1,6 +1,10 @@
-#Moodle Attendance Block 
+# ABOUT
 
-The Attendance block supplements the Attendance activity and is supported and maintained by Dan Marsden http://danmarsden.com
+The Attendance module is supported and maintained by Dan Marsden http://danmarsden.com
+
+The Attendance module was previously developed by
+    Dmitry Pupinin, Novosibirsk, Russia,
+    Artem Andreev, Taganrog, Russia.
 
 Branches
 --------
@@ -8,15 +12,17 @@ The following git branches are supported:
 
 | Moodle version        | Branch            |
 |-----------------------|-------------------|
-| Moodle 5.0 and higher | MOODLE_500_STABLE |
-| Moodle 4.5 and higher | MOODLE_405_STABLE |
- 
-#PURPOSE
-The Attendance activity allows teachers to maintain a record of attendance, replacing or supplementing a paper-based attendance register.
+| Moodle 4.1            | MOODLE_401_STABLE |
+| Moodle 4.4            | MOODLE_404_STABLE |
+| Moodle 4.5            | MOODLE_405_STABLE |
+| Moodle 5.0            | MOODLE_500_STABLE |
 
-This block provides quick links to features such as reporting, taking of attendance and adding new sessions.
+# PURPOSE
+The Attendance module allows teachers to maintain a record of attendance, replacing or supplementing a paper-based attendance register.
+It is primarily used in blended-learning environments where students are required to attend classes, lectures and tutorials and allows
+the teacher to track and optionally provide a grade for the students attendance.
 
-The Attendance block was previously developed by
-* Human Logic Development Team, www.human-logic.com
-* Dmitry Pupinin, Novosibirsk, Russia,
+Sessions can be configured to allow students to record their own attendance and a range of different reports are available.
 
+# DOCUMENTATION
+https://docs.moodle.org/en/Attendance_activity

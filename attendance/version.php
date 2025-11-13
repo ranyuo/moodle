@@ -15,19 +15,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details
+ * Version information
  *
- * @package    block_attendance
+ * @package    mod_attendance
  * @copyright  2011 Artem Andreev <andreev.artem@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2025111200;
-$plugin->release   = '2025111200';
-$plugin->requires = 2025041400; // Requires 5.0
-$plugin->component = 'block_attendance';
-$plugin->dependencies = ['mod_attendance' => 2025111000];
+$plugin->version  = 2025111100;
+$plugin->release = 2025111100;
+$plugin->requires = 2025031100; // Requires 5.0.
 $plugin->maturity  = MATURITY_STABLE;
+$plugin->cron     = 0;
+$plugin->component = 'mod_attendance';
 $plugin->supported = [500, 501];

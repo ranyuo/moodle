@@ -9,3 +9,6 @@ jobs:
     # Required if you plan to publish (uncomment the below)
     secrets:
       moodle_org_token: ${{ secrets.MOODLE_ORG_TOKEN }}
+    with:
+      disable_mustache: true
+      disable_phpcpd: true
